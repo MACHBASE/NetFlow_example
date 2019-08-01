@@ -1,0 +1,18 @@
+table netflow_data
+{
+StartTime datetime;
+Dur double;
+Protocol varchar(7);
+SAddr ipv4;
+Sport integer;
+Dir varchar(20) ignore;
+DAddr ipv4;
+Dport integer;
+State Varchar(15);
+sTos integer;
+dTos integer;
+TotPkts integer;
+TotBytes integer;
+SrcBytes integer;
+label varchar(512) ignore;
+}
